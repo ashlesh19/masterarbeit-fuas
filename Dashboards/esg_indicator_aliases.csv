@@ -1,0 +1,57 @@
+indicator,Alias
+Climate Change Mitigation,climate_change_mitigation
+Decarbonisation,decarbonisation
+Financial Resources Allocated for ESG,financial_resources_allocated_for_ESG
+Achieved GHG Emission Reductions,achieved_ghg_emission_reductions
+Expected GHG Emission Reductions,expected_ghg_emission_reductions
+Total Energy Consumption,total_energy_consumption
+Total Energy Consumption from Fossil Sources,total_energy_consumption_from_fossil_sources
+Total Energy Consumption from Nuclear Sources,total_energy_consumption_from_nuclear_sources
+Renewable Energy Production,renewable_energy_production
+Total Energy Consumption from Renewable Sources,total_energy_consumption_from_renewable_sources
+Scope 1,scope_1
+Scope 2,scope_2
+Scope 3,scope_3
+Total GHG Emissions,total_ghg_emissions
+Emissions to Air by Pollutant,emissions_to_air_by_pollutant
+Emissions to Water by Pollutant,emissions_to_water_by_pollutant
+Emissions to Soil by Pollutant,emissions_to_soil_by_pollutant
+Total Amount of Substances of Concern/Hazard Class,total_amount_of_substances_of_concern_hazard_class
+Total Water Consumption,total_water_consumption
+Total Water Recycled and Reused,total_water_recycled_and_reused
+Policy Related to Water and Marine Resources,policy_related_to_water_and_marine_resources
+Total Waste Generated,total_waste_generated
+Total Amount of Hazardous Waste,total_amount_of_hazardous_waste
+Total Amount of Radioactive Waste,total_amount_of_radioactive_waste
+Human Rights Policy Commitments for Employees,human_rights_policy_commitments_for_employees
+Workplace Accident Prevention Policy,workplace_accident_prevention_policy
+Elimination of Discrimination,elimination_of_discrimination
+Grievance or Complaints Handling,grievance_or_complaints_handling
+Mitigate Negative Impacts on Own Workforce,mitigate_negative_impacts_on_own_workforce
+Delivering Positive Impacts for Own Workforce,delivering_positive_impacts_for_own_workforce
+Number of Employees,number_of_employees
+Number of Board Members,number_of_board_members
+Percentage of Employees at Top Management Level,percentage_of_employees_at_top_management_level
+Number of Employees under 30,number_of_employees_under_30
+Percentage of Employees under 30,percentage_of_employees_under_30
+Number of Employees between 30 and 50,number_of_employees_between_30_and_50
+Percentage of Employees between 30 and 50,percentage_of_employees_between_30_and_50
+Number of Employees over 50,number_of_employees_over_50
+Percentage of Employees over 50,percentage_of_employees_over_50
+Number of Fatalities in Own Workforce,number_of_fatalities_in_own_workforce
+Number of Work Related Accidents,number_of_work_related_accidents
+Number of Work Related Ill Health,number_of_work_related_ill_health
+Number Incidents of Discrimination,number_incidents_of_discrimination
+Number of Complaints Filed,number_of_complaints_filed
+Number of Severe Human Rights Issues,number_of_severe_human_rights_issues
+Amount of Fines for Severe Human Rights Issues,amount_of_fines_for_severe_human_rights_issues
+Human Rights Policy Commitments for Customers and End Users,human_rights_policy_commitments_for_customers_and_end_users
+Whistleblowing Protection,whistleblowing_protection
+Policy for Animal Welfare,policy_for_animal_welfare
+Training within Organisation on Business Conduct,training_within_organisation_on_business_conduct
+Disclosure on Corruption and Bribery,disclosure_on_corruption_and_bribery
+Violation of Anti-Corruption and Anti-Bribery Laws,violation_of_anti_corruption_and_anti_bribery_laws
+Fines Paid for Violation of Anti-Corruption and Anti-Bribery Laws,fines_paid_for_violation_of_anti_corruption_and_anti_bribery_laws
+Financial Political Contributions,financial_political_contributions
+Legal Proceedings for Late Payments,legal_proceedings_for_late_payments
+Information Regarding Payment Practices,information_regarding_payment_practices
