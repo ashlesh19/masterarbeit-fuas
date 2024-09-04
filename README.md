@@ -1,6 +1,4 @@
 # masterarbeit-fuas
-# **Analysis of ESG Disclosure Trends: A Comparative Study Across Industries**
-
 ## **Project Overview**
 This project investigates the trends in ESG (Environmental, Social, and Governance) disclosures across various industries. By leveraging machine learning models, data extraction, and fine-tuning techniques, we aim to uncover patterns and provide meaningful insights into how industries report ESG-related data.
 
