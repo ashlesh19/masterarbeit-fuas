@@ -119,3 +119,91 @@ This project investigates the trends in ESG (Environmental, Social, and Governan
 - Provide querying options for retrieving insights.
 
 
+## Dash App Overview (Dashboard)
+
+### 1. **compare_heatmap.py**
+
+#### **Features:**
+- **Heatmap Visualization for ESG Indicators:**
+  This app provides a heatmap visualization that compares ESG (Environmental, Social, and Governance) indicators across different companies. It loads ESG data from a CSV file (`database.csv`) and allows users to visually compare companies on specific ESG indicators.
+
+- **ESG Indicators:**
+  The ESG indicators are divided into three categories:
+  - **Environmental Indicators (E)** 
+  - **Social Indicators (S)** 
+  - **Governance Indicators (G)**
+
+- **Dynamic Heatmap Generation:**
+  Users can select different ESG indicators to visualize, and the app dynamically generates heatmaps that reflect the performance of companies across these metrics.
+
+- **Matplotlib and Seaborn Integration:**
+  The heatmaps are created using Seaborn, with Matplotlib serving as the rendering engine. 
+
+#### **User Interaction:**
+- Dropdown menus for selecting ESG categories (Environmental, Social, or Governance).
+- Dynamic heatmap generation based on selected ESG metrics.
+
+#### **Data Files:**
+- **Input:** `database.csv` - This CSV file contains ESG data for various companies.
+- **Libraries Used:** Dash, Pandas, Seaborn, Matplotlib.
+
+---
+
+### 2. **ESGIndicatorFrequecny.py**
+
+#### **Features:**
+- **ESG Indicator Frequency Dashboard:**
+  This app visualizes the frequency of ESG disclosures across different companies. It analyzes how often each company reports on various ESG indicators by calculating the frequency of these indicators in `database.csv`.
+
+- **Alias Mapping for Indicators:**
+  The app uses an alias file (`esg_indicator_aliases.csv`) to map commonly used ESG terms or abbreviations to standardized ESG indicators. This ensures consistency when analyzing the frequency of disclosures.
+
+- **Data Categorization:**
+  The app divides ESG indicators into Environmental, Social, and Governance categories. This allows users to filter data and explore disclosure frequency based on the specific ESG dimension.
+
+- **Company-Specific Insights:**
+  Users can select a specific company from the dropdown menu to view how frequently it discloses certain ESG indicators.
+
+#### **User Interaction:**
+- Dropdown selection for specific companies.
+- Interactive plots showing the frequency of ESG disclosures for the selected company.
+
+#### **Data Files:**
+- **Input:** 
+  - `database.csv` - Contains ESG data for different companies.
+  - `esg_indicator_aliases.csv` - Contains mappings of ESG indicator aliases to their standardized forms.
+- **Libraries Used:** Dash, Pandas.
+
+---
+
+### 3. **IndustryLeaders.py**
+
+#### **Features:**
+- **Industry Leaders Comparison Dashboard:**
+  This app allows users to compare how different industries perform in terms of ESG disclosures. It provides a dashboard where users can visualize which industries lead in specific ESG metrics, based on data loaded from `database.csv`.
+
+- **Industry-Based ESG Performance:**
+  The app presents data at the industry level, allowing users to compare industries on Environmental, Social, and Governance indicators. Users can explore which industries are leading in particular ESG areas and understand industry-wide trends.
+
+- **Bootstrap Integration:**
+  The app uses Dash Bootstrap Components for a polished and responsive UI, making the dashboard more visually appealing and user-friendly.
+
+#### **User Interaction:**
+- Dropdown menus for selecting industries or specific companies.
+- Visual comparison of industries based on selected ESG metrics.
+
+#### **Data Files:**
+- **Input:** `database.csv` - Contains ESG data for various industries and companies.
+- **Libraries Used:** Dash, Pandas, Matplotlib, Dash Bootstrap Components.
+
+---
+
+### **Summary of Features for All Three Dash Apps:**
+1. **`compare_heatmap.py`:** 
+   - Generates dynamic heatmaps to compare ESG indicators across companies.
+   
+2. **`ESGIndicatorFrequecny.py`:** 
+   - Visualizes the frequency of ESG disclosures across selected companies.
+   
+3. **`IndustryLeaders.py`:** 
+   - Compares industries and visualizes which industries are leaders in ESG performance.
