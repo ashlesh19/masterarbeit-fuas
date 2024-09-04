@@ -113,7 +113,7 @@ This project investigates the trends in ESG (Environmental, Social, and Governan
 
 **Output Files:**  
 - Data is stored in .csv file
-- 
+  
 **Key Steps:**
 - Insert the final ESG data into appropriate tables or collections.
 - Provide querying options for retrieving insights.
